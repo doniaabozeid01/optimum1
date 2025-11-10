@@ -93,6 +93,10 @@ body {
   margin: 0;
 }
 
+.end-text {
+  padding: 0 35px 0px 0px;
+}
+
 @media (max-width: 768px) {
   .salary-row {
     flex-direction: column;
@@ -100,9 +104,12 @@ body {
   }
   .person-info {
     justify-content: center;
+    margin-bottom: 10px;
   }
 
   .salary-item {
+    /* background-color: #f5f7f9; */
+    margin-top: 15px;
     text-align: end;
     flex: 0.5; 
   }
@@ -112,8 +119,15 @@ body {
     width: 94%;
 
   }
-}
 
-.end-text {
+
+  .end-text {
   padding: 0 35px 0px 0px;
 }
+.end-text {
+  padding: 0 ;
+}
+
+
+}
+
