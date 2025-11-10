@@ -1,0 +1,119 @@
+.parent {
+  background-color: white;
+  height: 100vh;
+}
+
+.big-child {
+  height: 100vh;
+
+  background-color: rgb(175, 216, 202);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-data {
+  height: 95%;
+  width: 98%;
+  border-radius: 50px;
+  background-color: white;
+  overflow-y: auto;
+
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.main-data::-webkit-scrollbar {
+  display: none; 
+}
+
+.section1 {
+  border-bottom: 1px solid rgb(188, 187, 187);
+}
+
+.fa-user {
+  color: rgb(57, 135, 81);
+}
+
+.database1 {
+  color: blueviolet;
+}
+
+.database2 {
+  color: rgb(43, 89, 226);
+}
+
+body {
+  background-color: #f5f7f9;
+  font-family: "Cairo", sans-serif;
+}
+
+.salary-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  background-color: #fff;
+  padding: 15px 25px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(188, 187, 187);
+}
+
+.person-info {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  flex: 1.5; 
+}
+
+.person-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.salary-item {
+  text-align: end;
+  flex: 1; 
+}
+
+.salary-item h4 {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.salary-item p {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .salary-row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .person-info {
+    justify-content: center;
+  }
+
+  .salary-item {
+    text-align: end;
+    flex: 0.5; 
+  }
+
+  .main-data {
+    /* height: 95%; */
+    width: 94%;
+
+  }
+}
+
+.end-text {
+  padding: 0 35px 0px 0px;
+}
