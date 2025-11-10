@@ -120,14 +120,15 @@ body {
 
   }
 
-
-  .end-text {
-  padding: 0 35px 0px 0px;
-}
 .end-text {
   padding: 0 ;
 }
 
+    .salary-item p {
+text-align: center;
+    margin: 0;
+  }
 
 }
+
 
